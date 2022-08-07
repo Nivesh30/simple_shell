@@ -1,50 +1,38 @@
-<<<<<<< HEAD
-# shellby - Simple Shell :shell:
+# 0x16. C - Simple Shell
 
-A simple UNIX command interpreter written as part of the low-level programming and algorithm track at Holberton School.
+This project is an implementation of the shell created as the final project for the C code sprint at **ALX Africa**.
 
-## Description :speech_balloon:
+## Table of contents :clipboard:
 
-**Shellby** is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.
+ - [Description]
+ - [Installation]
+ - [Usage]
+ - [Example]
+ - [Contributors]
+ - [Acknowledgements]
+## Description :e-mail:
+This is a shell written in [C](https://en.wikipedia.org/wiki/C_(programming_language)).
+It is based on [the Thompson Shell](https://en.wikipedia.org/wiki/Thompson_shell).
 
-### Invocation :running:
+##Environment :evergreen_tree::evergreen_tree:
 
-Usage: **shellby** [filename]
+Our shell was built and tested on  Ubuntu 14.04 LTS.
 
-To invoke **shellby**, compile all `.c` files in the repository and run the resulting executable:
+### Basic usage :bulb:
+- First, [fork this repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+- Then [clone it to your local machine](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+- Create an executable by running the following command:
+- `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
+- From there, type in the following command and press your enter button.
+- `./hsh`
+- Final step: ENJOY!
 
+## Example :computer:
 ```
-gcc *.c -o shellby
-./shellby
+ls -la
 ```
+![screenshot of shell](https://user-images.githubusercontent.com/30075600/114757753-e50c2180-9d64-11eb-95ea-fb9bba776c8c.png)
 
-**Shellby** can be invoked both interactively and non-interactively. If **shellby** is invoked with standard input not connected to a terminal, it reads and executes received commands in order.
-
-Example:
-```
-$ echo "echo 'hello'" | ./shellby
-'hello'
-$
-```
-
-If **shellby** is invoked with standard input connected to a terminal (determined by [isatty](https://linux.die.net/man/3/isatty)(3)), an *interactive* shell is opened. When executing interactively, **shellby** displays the prompt `$ ` when it is ready to read a command.
-
-Example:
-```
-$./shellby
-$
-```
-
-Alternatively, if command line arguments are supplied upon invocation, **shellby** treats the first argument as a file from which to read commands. The supplied file should contain one command per line. **Shellby** runs each of the commands contained in the file in order before exiting.
-
-Example:
-```
-$ cat test
-echo 'hello'
-$ ./shellby test
-'hello'
-$
-```
-=======
-readme
->>>>>>> 894da359f5ce2f88cd225602cac7f65d018fbd29
+## Contributors :sunglasses::muscle:
+* [**Nivesh Rajkumar**]
+* [**Yonas Andualem**]
