@@ -5,11 +5,10 @@ This project is an implementation of the shell created as the final project for 
 ## Table of contents :clipboard:
 
  - [Description]
- - [Installation]
  - [Usage]
  - [Example]
  - [Contributors]
- - [Acknowledgements]
+
 ## Description :e-mail:
 This is a shell written in [C](https://en.wikipedia.org/wiki/C_(programming_language)).
 It is based on [the Thompson Shell](https://en.wikipedia.org/wiki/Thompson_shell).
