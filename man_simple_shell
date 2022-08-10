@@ -1,7 +1,4 @@
-"manpage for Simple_shell. Simple shell project to ALX- Holberton School.
-.TH man 1 "14 April 2021" "Simple Shell"                    "14 April 2021" "1.0"                                              "simple_shell man page"
-SH NAME
-Holberton Simple Shell
+Simple Shell
 - A simple UNIX command line interpreter.
 .SH SYNOPSIS
 .B ./hsh [options] [command_string | file]
@@ -9,7 +6,7 @@ Holberton Simple Shell
 .SH DESCRIPTION
 .LP
 .B hsh
-is an sh-compatible command language interpreter that reads and executes commands from standard input. It is conformed to the POSIX specificati>
+is an sh-compatible command language interpreter that reads and executes commands from standard input. It is conformed to the POSIX specification
 .LP
 
 .SH OVERVIEW
@@ -30,7 +27,7 @@ For example:
 .I To install:
 .br
 
-.B git clone https://github.com/Fraol123/simple_shell.git
+.B git clone https://github.com/Nivesh30/simple_shell.git
 br
 
 .I Compile files using:
